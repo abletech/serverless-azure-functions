@@ -84,7 +84,7 @@ export class ApimPolicyBuilder {
 
     const policy = {
       $: { action: ipConfig.action },
-      addressRange: ipConfig.addressRange,
+      'address-range': ipConfig.addressRange,
       address: ipConfig.addresses
     }
 
